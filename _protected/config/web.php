@@ -177,7 +177,10 @@ $config = [
                         'options' => ['class'=>'form-control'],
                     ]
                 ]
-            ]
+            ],
+        ],
+        'utility' => [
+            'class' => 'c006\utility\migration\Module',
         ],
     ],
     'params' => $params,
@@ -189,7 +192,12 @@ if (YII_ENV_DEV) {
     $config['modules']['debug'] = ['class' => 'yii\debug\Module'];
 
     $config['bootstrap'][] = 'gii';
-    $config['modules']['gii'] = ['class' => 'yii\gii\Module'];
+    $config['modules']['gii'] = [
+        'class' => 'yii\gii\Module',
+        'generators' => [
+            'migration' => ['class' => 'dee\gii\generators\migration\Generator'],
+        ]
+    ];
 }
 
 return $config;

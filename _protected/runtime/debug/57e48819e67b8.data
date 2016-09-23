@@ -1,0 +1,772 @@
+a:8:{s:6:"config";a:5:{s:10:"phpVersion";s:6:"5.6.23";s:10:"yiiVersion";s:5:"2.0.9";s:11:"application";a:4:{s:3:"yii";s:5:"2.0.9";s:4:"name";s:22:"BANK DATA YAKES TELKOM";s:3:"env";s:3:"dev";s:5:"debug";b:1;}s:3:"php";a:4:{s:7:"version";s:6:"5.6.23";s:6:"xdebug";b:0;s:3:"apc";b:0;s:8:"memcache";b:0;}s:10:"extensions";a:39:{s:24:"yiisoft/yii2-codeception";a:3:{s:4:"name";s:24:"yiisoft/yii2-codeception";s:7:"version";s:7:"2.0.5.0";s:5:"alias";a:1:{s:16:"@yii/codeception";s:68:"C:\xampp\htdocs\bank-data\_protected\vendor/yiisoft/yii2-codeception";}}s:18:"yiisoft/yii2-debug";a:3:{s:4:"name";s:18:"yiisoft/yii2-debug";s:7:"version";s:7:"2.0.6.0";s:5:"alias";a:1:{s:10:"@yii/debug";s:62:"C:\xampp\htdocs\bank-data\_protected\vendor/yiisoft/yii2-debug";}}s:16:"yiisoft/yii2-gii";a:3:{s:4:"name";s:16:"yiisoft/yii2-gii";s:7:"version";s:7:"2.0.5.0";s:5:"alias";a:1:{s:8:"@yii/gii";s:60:"C:\xampp\htdocs\bank-data\_protected\vendor/yiisoft/yii2-gii";}}s:18:"yiisoft/yii2-faker";a:3:{s:4:"name";s:18:"yiisoft/yii2-faker";s:7:"version";s:7:"2.0.3.0";s:5:"alias";a:1:{s:10:"@yii/faker";s:62:"C:\xampp\htdocs\bank-data\_protected\vendor/yiisoft/yii2-faker";}}s:32:"kartik-v/yii2-widget-switchinput";a:3:{s:4:"name";s:32:"kartik-v/yii2-widget-switchinput";s:7:"version";s:7:"1.3.1.0";s:5:"alias";a:1:{s:19:"@kartik/switchinput";s:76:"C:\xampp\htdocs\bank-data\_protected\vendor/kartik-v/yii2-widget-switchinput";}}s:28:"kartik-v/yii2-widget-spinner";a:3:{s:4:"name";s:28:"kartik-v/yii2-widget-spinner";s:7:"version";s:7:"1.0.0.0";s:5:"alias";a:1:{s:15:"@kartik/spinner";s:72:"C:\xampp\htdocs\bank-data\_protected\vendor/kartik-v/yii2-widget-spinner";}}s:28:"kartik-v/yii2-widget-sidenav";a:3:{s:4:"name";s:28:"kartik-v/yii2-widget-sidenav";s:7:"version";s:7:"1.0.0.0";s:5:"alias";a:1:{s:15:"@kartik/sidenav";s:72:"C:\xampp\htdocs\bank-data\_protected\vendor/kartik-v/yii2-widget-sidenav";}}s:28:"kartik-v/yii2-widget-select2";a:3:{s:4:"name";s:28:"kartik-v/yii2-widget-select2";s:7:"version";s:7:"2.0.8.0";s:5:"alias";a:1:{s:15:"@kartik/select2";s:72:"C:\xampp\htdocs\bank-data\_protected\vendor/kartik-v/yii2-widget-select2";}}s:27:"kartik-v/yii2-widget-rating";a:3:{s:4:"name";s:27:"kartik-v/yii2-widget-rating";s:7:"version";s:7:"1.0.2.0";s:5:"alias";a:1:{s:14:"@kartik/rating";s:71:"C:\xampp\htdocs\bank-data\_protected\vendor/kartik-v/yii2-widget-rating";}}s:31:"kartik-v/yii2-widget-rangeinput";a:3:{s:4:"name";s:31:"kartik-v/yii2-widget-rangeinput";s:7:"version";s:7:"1.0.1.0";s:5:"alias";a:1:{s:13:"@kartik/range";s:75:"C:\xampp\htdocs\bank-data\_protected\vendor/kartik-v/yii2-widget-rangeinput";}}s:26:"kartik-v/yii2-widget-growl";a:3:{s:4:"name";s:26:"kartik-v/yii2-widget-growl";s:7:"version";s:7:"1.1.1.0";s:5:"alias";a:1:{s:13:"@kartik/growl";s:70:"C:\xampp\htdocs\bank-data\_protected\vendor/kartik-v/yii2-widget-growl";}}s:30:"kartik-v/yii2-widget-fileinput";a:3:{s:4:"name";s:30:"kartik-v/yii2-widget-fileinput";s:7:"version";s:7:"1.0.5.0";s:5:"alias";a:1:{s:12:"@kartik/file";s:74:"C:\xampp\htdocs\bank-data\_protected\vendor/kartik-v/yii2-widget-fileinput";}}s:28:"kartik-v/yii2-widget-depdrop";a:3:{s:4:"name";s:28:"kartik-v/yii2-widget-depdrop";s:7:"version";s:7:"1.0.4.0";s:5:"alias";a:1:{s:15:"@kartik/depdrop";s:72:"C:\xampp\htdocs\bank-data\_protected\vendor/kartik-v/yii2-widget-depdrop";}}s:35:"kartik-v/yii2-widget-datetimepicker";a:3:{s:4:"name";s:35:"kartik-v/yii2-widget-datetimepicker";s:7:"version";s:7:"1.4.2.0";s:5:"alias";a:1:{s:16:"@kartik/datetime";s:79:"C:\xampp\htdocs\bank-data\_protected\vendor/kartik-v/yii2-widget-datetimepicker";}}s:31:"kartik-v/yii2-widget-datepicker";a:3:{s:4:"name";s:31:"kartik-v/yii2-widget-datepicker";s:7:"version";s:7:"1.4.2.0";s:5:"alias";a:1:{s:12:"@kartik/date";s:75:"C:\xampp\htdocs\bank-data\_protected\vendor/kartik-v/yii2-widget-datepicker";}}s:31:"kartik-v/yii2-widget-colorinput";a:3:{s:4:"name";s:31:"kartik-v/yii2-widget-colorinput";s:7:"version";s:7:"1.0.3.0";s:5:"alias";a:1:{s:13:"@kartik/color";s:75:"C:\xampp\htdocs\bank-data\_protected\vendor/kartik-v/yii2-widget-colorinput";}}s:26:"kartik-v/yii2-widget-alert";a:3:{s:4:"name";s:26:"kartik-v/yii2-widget-alert";s:7:"version";s:7:"1.1.0.0";s:5:"alias";a:1:{s:13:"@kartik/alert";s:70:"C:\xampp\htdocs\bank-data\_protected\vendor/kartik-v/yii2-widget-alert";}}s:26:"kartik-v/yii2-widget-affix";a:3:{s:4:"name";s:26:"kartik-v/yii2-widget-affix";s:7:"version";s:7:"1.0.0.0";s:5:"alias";a:1:{s:13:"@kartik/affix";s:70:"C:\xampp\htdocs\bank-data\_protected\vendor/kartik-v/yii2-widget-affix";}}s:31:"kartik-v/yii2-widget-activeform";a:3:{s:4:"name";s:31:"kartik-v/yii2-widget-activeform";s:7:"version";s:7:"1.4.8.0";s:5:"alias";a:1:{s:12:"@kartik/form";s:75:"C:\xampp\htdocs\bank-data\_protected\vendor/kartik-v/yii2-widget-activeform";}}s:21:"kartik-v/yii2-widgets";a:3:{s:4:"name";s:21:"kartik-v/yii2-widgets";s:7:"version";s:7:"3.4.0.0";s:5:"alias";a:1:{s:15:"@kartik/widgets";s:65:"C:\xampp\htdocs\bank-data\_protected\vendor/kartik-v/yii2-widgets";}}s:24:"mdmsoft/yii2-upload-file";a:4:{s:4:"name";s:24:"mdmsoft/yii2-upload-file";s:7:"version";s:7:"1.3.0.0";s:5:"alias";a:1:{s:11:"@mdm/upload";s:68:"C:\xampp\htdocs\bank-data\_protected\vendor/mdmsoft/yii2-upload-file";}s:9:"bootstrap";s:20:"mdm\upload\Bootstrap";}s:22:"yiisoft/yii2-bootstrap";a:3:{s:4:"name";s:22:"yiisoft/yii2-bootstrap";s:7:"version";s:7:"2.0.6.0";s:5:"alias";a:1:{s:14:"@yii/bootstrap";s:66:"C:\xampp\htdocs\bank-data\_protected\vendor/yiisoft/yii2-bootstrap";}}s:25:"kartik-v/yii2-krajee-base";a:3:{s:4:"name";s:25:"kartik-v/yii2-krajee-base";s:7:"version";s:7:"1.8.7.0";s:5:"alias";a:1:{s:12:"@kartik/base";s:69:"C:\xampp\htdocs\bank-data\_protected\vendor/kartik-v/yii2-krajee-base";}}s:31:"kartik-v/yii2-widget-timepicker";a:3:{s:4:"name";s:31:"kartik-v/yii2-widget-timepicker";s:7:"version";s:7:"1.0.1.0";s:5:"alias";a:1:{s:12:"@kartik/time";s:75:"C:\xampp\htdocs\bank-data\_protected\vendor/kartik-v/yii2-widget-timepicker";}}s:30:"kartik-v/yii2-widget-touchspin";a:3:{s:4:"name";s:30:"kartik-v/yii2-widget-touchspin";s:7:"version";s:7:"1.2.1.0";s:5:"alias";a:1:{s:17:"@kartik/touchspin";s:74:"C:\xampp\htdocs\bank-data\_protected\vendor/kartik-v/yii2-widget-touchspin";}}s:30:"kartik-v/yii2-widget-typeahead";a:3:{s:4:"name";s:30:"kartik-v/yii2-widget-typeahead";s:7:"version";s:7:"1.0.1.0";s:5:"alias";a:1:{s:17:"@kartik/typeahead";s:74:"C:\xampp\htdocs\bank-data\_protected\vendor/kartik-v/yii2-widget-typeahead";}}s:24:"yiisoft/yii2-swiftmailer";a:3:{s:4:"name";s:24:"yiisoft/yii2-swiftmailer";s:7:"version";s:7:"2.0.6.0";s:5:"alias";a:1:{s:16:"@yii/swiftmailer";s:68:"C:\xampp\htdocs\bank-data\_protected\vendor/yiisoft/yii2-swiftmailer";}}s:26:"wbraganca/yii2-dynamicform";a:3:{s:4:"name";s:26:"wbraganca/yii2-dynamicform";s:7:"version";s:7:"2.0.2.0";s:5:"alias";a:1:{s:22:"@wbraganca/dynamicform";s:70:"C:\xampp\htdocs\bank-data\_protected\vendor/wbraganca/yii2-dynamicform";}}s:22:"kartik-v/yii2-password";a:3:{s:4:"name";s:22:"kartik-v/yii2-password";s:7:"version";s:7:"1.5.3.0";s:5:"alias";a:1:{s:16:"@kartik/password";s:66:"C:\xampp\htdocs\bank-data\_protected\vendor/kartik-v/yii2-password";}}s:20:"kartik-v/yii2-dialog";a:3:{s:4:"name";s:20:"kartik-v/yii2-dialog";s:7:"version";s:7:"1.0.1.0";s:5:"alias";a:1:{s:14:"@kartik/dialog";s:64:"C:\xampp\htdocs\bank-data\_protected\vendor/kartik-v/yii2-dialog";}}s:18:"kartik-v/yii2-grid";a:3:{s:4:"name";s:18:"kartik-v/yii2-grid";s:7:"version";s:7:"3.1.2.0";s:5:"alias";a:1:{s:12:"@kartik/grid";s:62:"C:\xampp\htdocs\bank-data\_protected\vendor/kartik-v/yii2-grid";}}s:21:"kartik-v/yii2-builder";a:3:{s:4:"name";s:21:"kartik-v/yii2-builder";s:7:"version";s:7:"1.6.1.0";s:5:"alias";a:1:{s:15:"@kartik/builder";s:65:"C:\xampp\htdocs\bank-data\_protected\vendor/kartik-v/yii2-builder";}}s:18:"kartik-v/yii2-mpdf";a:3:{s:4:"name";s:18:"kartik-v/yii2-mpdf";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:12:"@kartik/mpdf";s:62:"C:\xampp\htdocs\bank-data\_protected\vendor/kartik-v/yii2-mpdf";}}s:23:"mdmsoft/yii2-autonumber";a:4:{s:4:"name";s:23:"mdmsoft/yii2-autonumber";s:7:"version";s:7:"1.4.0.0";s:5:"alias";a:1:{s:15:"@mdm/autonumber";s:67:"C:\xampp\htdocs\bank-data\_protected\vendor/mdmsoft/yii2-autonumber";}s:9:"bootstrap";s:24:"mdm\autonumber\Bootstrap";}s:25:"kartik-v/yii2-datecontrol";a:3:{s:4:"name";s:25:"kartik-v/yii2-datecontrol";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:19:"@kartik/datecontrol";s:69:"C:\xampp\htdocs\bank-data\_protected\vendor/kartik-v/yii2-datecontrol";}}s:20:"yiisoft/yii2-imagine";a:3:{s:4:"name";s:20:"yiisoft/yii2-imagine";s:7:"version";s:7:"2.0.4.0";s:5:"alias";a:1:{s:12:"@yii/imagine";s:64:"C:\xampp\htdocs\bank-data\_protected\vendor/yiisoft/yii2-imagine";}}s:30:"sadovojav/yii2-image-thumbnail";a:3:{s:4:"name";s:30:"sadovojav/yii2-image-thumbnail";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:16:"@sadovojav/image";s:74:"C:\xampp\htdocs\bank-data\_protected\vendor/sadovojav/yii2-image-thumbnail";}}s:27:"c006/yii2-migration-utility";a:3:{s:4:"name";s:27:"c006/yii2-migration-utility";s:7:"version";s:7:"1.2.1.0";s:5:"alias";a:1:{s:23:"@c006/utility/migration";s:71:"C:\xampp\htdocs\bank-data\_protected\vendor/c006/yii2-migration-utility";}}s:16:"deesoft/yii2-gii";a:3:{s:4:"name";s:16:"deesoft/yii2-gii";s:7:"version";s:7:"1.4.0.0";s:5:"alias";a:1:{s:8:"@dee/gii";s:60:"C:\xampp\htdocs\bank-data\_protected\vendor/deesoft/yii2-gii";}}}}s:7:"request";a:14:{s:7:"flashes";a:0:{}s:10:"statusCode";i:200;s:14:"requestHeaders";a:13:{s:4:"host";s:9:"localhost";s:10:"connection";s:10:"keep-alive";s:14:"content-length";s:3:"461";s:13:"cache-control";s:9:"max-age=0";s:6:"origin";s:16:"http://localhost";s:25:"upgrade-insecure-requests";s:1:"1";s:10:"user-agent";s:110:"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36";s:12:"content-type";s:33:"application/x-www-form-urlencoded";s:6:"accept";s:74:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8";s:7:"referer";s:40:"http://localhost/bank-data/gii/migration";s:15:"accept-encoding";s:13:"gzip, deflate";s:15:"accept-language";s:35:"en-US,id-ID;q=0.8,id;q=0.6,en;q=0.4";s:6:"cookie";s:418:"PHPSESSID=tvfhaubc3dgd9gsmi8ata6qnr7; _csrf=e47b96523671ca6e0cab0b3ef9f00617bb41d7fa5224afa61d557f9ab9b1a492a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22C8kw7s6lsf9NyjdOFA0UhKjo0uXqNUw6%22%3B%7D; _identity=0ac63d63dbeb66201afef03d537c9dde92bdd618bb904bb72193ddd875d5b2e5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22Iftm73OMxVBWQQfSdiHLpGDij1k6arU2%22%2C2592000%5D%22%3B%7D";}s:15:"responseHeaders";a:2:{s:12:"X-Powered-By";s:10:"PHP/5.6.23";s:12:"Content-Type";s:24:"text/html; charset=UTF-8";}s:5:"route";s:16:"gii/default/view";s:6:"action";s:51:"yii\gii\controllers\DefaultController::actionView()";s:12:"actionParams";a:1:{i:0;s:9:"migration";}s:11:"requestBody";a:3:{s:12:"Content Type";s:33:"application/x-www-form-urlencoded";s:3:"Raw";s:461:"_csrf=YlRZX0huRGshbDIofx1yBxEyYBExBCAkJBVpCiAlLgRSIQEuBjszXQ%3D%3D&Generator%5BtableName%5D=dokumen_pendukung&Generator%5BmigrationPath%5D=%40app%2Fmigrations&Generator%5BmigrationTime%5D=160923_010101&Generator%5BmigrationName%5D=dokumen_pendukung&Generator%5Bdb%5D=db&Generator%5BuseTablePrefix%5D=0&Generator%5BgenerateRelations%5D=0&Generator%5BgenerateRelations%5D=1&Generator%5Btemplate%5D=default&answers%5B165a93f07f70c0dfa16d14ffe653d5c1%5D=1&generate=";s:17:"Decoded to Params";a:4:{s:5:"_csrf";s:56:"YlRZX0huRGshbDIofx1yBxEyYBExBCAkJBVpCiAlLgRSIQEuBjszXQ==";s:9:"Generator";a:8:{s:9:"tableName";s:17:"dokumen_pendukung";s:13:"migrationPath";s:15:"@app/migrations";s:13:"migrationTime";s:13:"160923_010101";s:13:"migrationName";s:17:"dokumen_pendukung";s:2:"db";s:2:"db";s:14:"useTablePrefix";s:1:"0";s:17:"generateRelations";s:1:"1";s:8:"template";s:7:"default";}s:7:"answers";a:1:{s:32:"165a93f07f70c0dfa16d14ffe653d5c1";s:1:"1";}s:8:"generate";s:0:"";}}s:6:"SERVER";a:54:{s:16:"REDIRECT_MIBDIRS";s:24:"C:/xampp/php/extras/mibs";s:19:"REDIRECT_MYSQL_HOME";s:16:"\xampp\mysql\bin";s:21:"REDIRECT_OPENSSL_CONF";s:31:"C:/xampp/apache/bin/openssl.cnf";s:29:"REDIRECT_PHP_PEAR_SYSCONF_DIR";s:10:"\xampp\php";s:14:"REDIRECT_PHPRC";s:10:"\xampp\php";s:12:"REDIRECT_TMP";s:10:"\xampp\tmp";s:15:"REDIRECT_STATUS";s:3:"200";s:7:"MIBDIRS";s:24:"C:/xampp/php/extras/mibs";s:10:"MYSQL_HOME";s:16:"\xampp\mysql\bin";s:12:"OPENSSL_CONF";s:31:"C:/xampp/apache/bin/openssl.cnf";s:20:"PHP_PEAR_SYSCONF_DIR";s:10:"\xampp\php";s:5:"PHPRC";s:10:"\xampp\php";s:3:"TMP";s:10:"\xampp\tmp";s:9:"HTTP_HOST";s:9:"localhost";s:15:"HTTP_CONNECTION";s:10:"keep-alive";s:14:"CONTENT_LENGTH";s:3:"461";s:18:"HTTP_CACHE_CONTROL";s:9:"max-age=0";s:11:"HTTP_ORIGIN";s:16:"http://localhost";s:30:"HTTP_UPGRADE_INSECURE_REQUESTS";s:1:"1";s:15:"HTTP_USER_AGENT";s:110:"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36";s:12:"CONTENT_TYPE";s:33:"application/x-www-form-urlencoded";s:11:"HTTP_ACCEPT";s:74:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8";s:12:"HTTP_REFERER";s:40:"http://localhost/bank-data/gii/migration";s:20:"HTTP_ACCEPT_ENCODING";s:13:"gzip, deflate";s:20:"HTTP_ACCEPT_LANGUAGE";s:35:"en-US,id-ID;q=0.8,id;q=0.6,en;q=0.4";s:11:"HTTP_COOKIE";s:418:"PHPSESSID=tvfhaubc3dgd9gsmi8ata6qnr7; _csrf=e47b96523671ca6e0cab0b3ef9f00617bb41d7fa5224afa61d557f9ab9b1a492a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22C8kw7s6lsf9NyjdOFA0UhKjo0uXqNUw6%22%3B%7D; _identity=0ac63d63dbeb66201afef03d537c9dde92bdd618bb904bb72193ddd875d5b2e5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22Iftm73OMxVBWQQfSdiHLpGDij1k6arU2%22%2C2592000%5D%22%3B%7D";s:4:"PATH";s:1205:"C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Java\jre1.7.0\bin;c:\xampp\apache;c:\xampp\apache\bin;C:\xampp\php;C:\Program Files\Java\jdk1.8.0_11\bin;C:\Users\yakes6\AppData\Roaming\npm;C:\Program Files (x86)\Intel\Phone Flash Tool Lite;C:\Program Files\nodejs\;C:\sqlite3;C:\Users\yakes6\AppData\Local\Android\sdk\platform-tools;C:\Users\yakes6\AppData\Local\Android\sdk\tools;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\yakes6\AppData\Roaming\Composer\vendor;C:\WTServer\bin\composer;C:\Users\yakes6\AppData\Local\atom\bin;C:\TDM-GCC-64\bin;C:\WTServer\bin;";s:10:"SystemRoot";s:10:"C:\WINDOWS";s:7:"COMSPEC";s:27:"C:\WINDOWS\system32\cmd.exe";s:7:"PATHEXT";s:53:".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC";s:6:"WINDIR";s:10:"C:\WINDOWS";s:16:"SERVER_SIGNATURE";s:95:"<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+";s:15:"SERVER_SOFTWARE";s:47:"Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23";s:11:"SERVER_NAME";s:9:"localhost";s:11:"SERVER_ADDR";s:3:"::1";s:11:"SERVER_PORT";s:2:"80";s:11:"REMOTE_ADDR";s:3:"::1";s:13:"DOCUMENT_ROOT";s:15:"C:/xampp/htdocs";s:14:"REQUEST_SCHEME";s:4:"http";s:14:"CONTEXT_PREFIX";s:0:"";s:21:"CONTEXT_DOCUMENT_ROOT";s:15:"C:/xampp/htdocs";s:12:"SERVER_ADMIN";s:20:"postmaster@localhost";s:15:"SCRIPT_FILENAME";s:35:"C:/xampp/htdocs/bank-data/index.php";s:11:"REMOTE_PORT";s:4:"3345";s:12:"REDIRECT_URL";s:40:"http://localhost/bank-data/gii/migration";s:17:"GATEWAY_INTERFACE";s:7:"CGI/1.1";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:14:"REQUEST_METHOD";s:4:"POST";s:12:"QUERY_STRING";s:0:"";s:11:"REQUEST_URI";s:24:"/bank-data/gii/migration";s:11:"SCRIPT_NAME";s:20:"/bank-data/index.php";s:8:"PHP_SELF";s:20:"/bank-data/index.php";s:18:"REQUEST_TIME_FLOAT";d:1474594841.911;s:12:"REQUEST_TIME";i:1474594841;}s:3:"GET";a:1:{s:2:"id";s:9:"migration";}s:4:"POST";a:4:{s:5:"_csrf";s:56:"YlRZX0huRGshbDIofx1yBxEyYBExBCAkJBVpCiAlLgRSIQEuBjszXQ==";s:9:"Generator";a:8:{s:9:"tableName";s:17:"dokumen_pendukung";s:13:"migrationPath";s:15:"@app/migrations";s:13:"migrationTime";s:13:"160923_010101";s:13:"migrationName";s:17:"dokumen_pendukung";s:2:"db";s:2:"db";s:14:"useTablePrefix";s:1:"0";s:17:"generateRelations";s:1:"1";s:8:"template";s:7:"default";}s:7:"answers";a:1:{s:32:"165a93f07f70c0dfa16d14ffe653d5c1";s:1:"1";}s:8:"generate";s:0:"";}s:6:"COOKIE";a:3:{s:9:"PHPSESSID";s:26:"tvfhaubc3dgd9gsmi8ata6qnr7";s:5:"_csrf";s:130:"e47b96523671ca6e0cab0b3ef9f00617bb41d7fa5224afa61d557f9ab9b1a492a:2:{i:0;s:5:"_csrf";i:1;s:32:"C8kw7s6lsf9NyjdOFA0UhKjo0uXqNUw6";}";s:9:"_identity";s:148:"0ac63d63dbeb66201afef03d537c9dde92bdd618bb904bb72193ddd875d5b2e5a:2:{i:0;s:9:"_identity";i:1;s:46:"[1,"Iftm73OMxVBWQQfSdiHLpGDij1k6arU2",2592000]";}";}s:5:"FILES";a:0:{}s:7:"SESSION";a:0:{}}s:3:"log";a:1:{s:8:"messages";a:42:{i:0;a:5:{i:0;s:48:"Bootstrap with mdm\upload\Bootstrap::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1474594841.932286;i:4;a:0:{}}i:1;a:5:{i:0;s:52:"Bootstrap with mdm\autonumber\Bootstrap::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1474594841.9327271;i:4;a:0:{}}i:2;a:5:{i:0;s:33:"Bootstrap with yii\log\Dispatcher";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1474594841.934763;i:4;a:0:{}}i:3;a:5:{i:0;s:37:"Bootstrap with app\components\Aliases";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1474594841.9368529;i:4;a:0:{}}i:4;a:5:{i:0;s:21:"Loading module: debug";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1474594841.9368839;i:4;a:0:{}}i:5;a:5:{i:0;s:44:"Bootstrap with yii\debug\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1474594841.943469;i:4;a:0:{}}i:6;a:5:{i:0;s:19:"Loading module: gii";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1474594841.9480669;i:4;a:0:{}}i:7;a:5:{i:0;s:42:"Bootstrap with yii\gii\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1474594841.9488349;i:4;a:0:{}}i:8;a:5:{i:0;s:42:"Request parsed with URL rule: gii/<id:\w+>";i:1;i:8;i:2;s:29:"yii\web\UrlRule::parseRequest";i:3;d:1474594841.949168;i:4;a:0:{}}i:9;a:5:{i:0;s:35:"Route requested: 'gii/default/view'";i:1;i:8;i:2;s:34:"yii\web\Application::handleRequest";i:3;d:1474594841.9491971;i:4;a:0:{}}i:10;a:5:{i:0;s:30:"Route to run: gii/default/view";i:1;i:8;i:2;s:30:"yii\base\Controller::runAction";i:3;d:1474594841.951582;i:4;a:0:{}}i:11;a:5:{i:0;s:67:"Running action: yii\gii\controllers\DefaultController::actionView()";i:1;i:8;i:2;s:36:"yii\base\InlineAction::runWithParams";i:3;d:1474594841.9654701;i:4;a:0:{}}i:12;a:5:{i:0;s:42:"SHOW FULL COLUMNS FROM `dokumen_pendukung`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1474594841.974674;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:390;s:8:"function";s:14:"getTableSchema";s:5:"class";s:17:"yii\db\Connection";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:356;s:8:"function";s:13:"getTableNames";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:13;a:5:{i:0;s:56:"Opening DB connection: mysql:host=localhost;dbname=basic";i:1;i:4;i:2;s:23:"yii\db\Connection::open";i:3;d:1474594841.9747651;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:390;s:8:"function";s:14:"getTableSchema";s:5:"class";s:17:"yii\db\Connection";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:356;s:8:"function";s:13:"getTableNames";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:18;a:5:{i:0;s:635:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'dokumen_pendukung' AND kcu.table_name = 'dokumen_pendukung'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1474594841.980464;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:390;s:8:"function";s:14:"getTableSchema";s:5:"class";s:17:"yii\db\Connection";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:356;s:8:"function";s:13:"getTableNames";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:21;a:5:{i:0;s:11:"SHOW TABLES";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1474594841.982969;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:24;a:5:{i:0;s:40:"SHOW FULL COLUMNS FROM `auth_assignment`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1474594841.9837091;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:27;a:5:{i:0;s:631:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'auth_assignment' AND kcu.table_name = 'auth_assignment'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1474594841.9871571;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:30;a:5:{i:0;s:34:"SHOW FULL COLUMNS FROM `auth_item`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1474594841.987891;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:33;a:5:{i:0;s:619:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'auth_item' AND kcu.table_name = 'auth_item'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1474594841.9912751;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:36;a:5:{i:0;s:40:"SHOW FULL COLUMNS FROM `auth_item_child`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1474594841.992034;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:39;a:5:{i:0;s:631:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'auth_item_child' AND kcu.table_name = 'auth_item_child'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1474594841.995434;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:42;a:5:{i:0;s:34:"SHOW FULL COLUMNS FROM `auth_rule`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1474594841.9961791;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:45;a:5:{i:0;s:619:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'auth_rule' AND kcu.table_name = 'auth_rule'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1474594841.9999859;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:48;a:5:{i:0;s:36:"SHOW FULL COLUMNS FROM `auto_number`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.0009911;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:51;a:5:{i:0;s:623:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'auto_number' AND kcu.table_name = 'auto_number'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.0042319;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:54;a:5:{i:0;s:34:"SHOW FULL COLUMNS FROM `migration`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.004952;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:57;a:5:{i:0;s:619:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'migration' AND kcu.table_name = 'migration'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.0080941;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:60;a:5:{i:0;s:32:"SHOW FULL COLUMNS FROM `peserta`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.008755;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:63;a:5:{i:0;s:615:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'peserta' AND kcu.table_name = 'peserta'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.012316;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:66;a:5:{i:0;s:28:"SHOW FULL COLUMNS FROM `tag`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.0131381;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:69;a:5:{i:0;s:607:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'tag' AND kcu.table_name = 'tag'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.016916;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:72;a:5:{i:0;s:38:"SHOW FULL COLUMNS FROM `uploaded_file`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.0176251;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:75;a:5:{i:0;s:627:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'uploaded_file' AND kcu.table_name = 'uploaded_file'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.0212331;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:78;a:5:{i:0;s:29:"SHOW FULL COLUMNS FROM `user`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.0219669;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:81;a:5:{i:0;s:609:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.025852;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:84;a:5:{i:0;s:124:"Rendering view file: C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration/default/migration.php";i:1;i:8;i:2;s:25:"yii\base\View::renderFile";i:3;d:1474594842.0300789;i:4;a:1:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:172;s:8:"function";s:6:"render";s:5:"class";s:17:"yii\gii\Generator";s:4:"type";s:2:"->";}}}i:85;a:5:{i:0;s:104:"Rendering view file: C:\xampp\htdocs\bank-data\_protected\vendor\yiisoft\yii2-gii\views\default\view.php";i:1;i:8;i:2;s:25:"yii\base\View::renderFile";i:3;d:1474594842.0326271;i:4;a:0:{}}i:86;a:5:{i:0;s:111:"Rendering view file: C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\form.php";i:1;i:8;i:2;s:25:"yii\base\View::renderFile";i:3;d:1474594842.0392461;i:4;a:0:{}}i:87;a:5:{i:0;s:112:"Rendering view file: C:\xampp\htdocs\bank-data\_protected\vendor\yiisoft\yii2-gii\views\default\view\results.php";i:1;i:8;i:2;s:25:"yii\base\View::renderFile";i:3;d:1474594842.0524671;i:4;a:0:{}}i:88;a:5:{i:0;s:109:"Rendering view file: C:\xampp\htdocs\bank-data\_protected\vendor\yiisoft\yii2-gii\views\layouts\generator.php";i:1;i:8;i:2;s:25:"yii\base\View::renderFile";i:3;d:1474594842.0537889;i:4;a:0:{}}i:89;a:5:{i:0;s:104:"Rendering view file: C:\xampp\htdocs\bank-data\_protected\vendor\yiisoft\yii2-gii\views\layouts\main.php";i:1;i:8;i:2;s:25:"yii\base\View::renderFile";i:3;d:1474594842.0551219;i:4;a:0:{}}}}s:9:"profiling";a:3:{s:6:"memory";i:6262632;s:4:"time";d:0.15101218223571777;s:8:"messages";a:48:{i:14;a:5:{i:0;s:56:"Opening DB connection: mysql:host=localhost;dbname=basic";i:1;i:80;i:2;s:23:"yii\db\Connection::open";i:3;d:1474594841.974818;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:390;s:8:"function";s:14:"getTableSchema";s:5:"class";s:17:"yii\db\Connection";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:356;s:8:"function";s:13:"getTableNames";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:15;a:5:{i:0;s:56:"Opening DB connection: mysql:host=localhost;dbname=basic";i:1;i:96;i:2;s:23:"yii\db\Connection::open";i:3;d:1474594841.976115;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:390;s:8:"function";s:14:"getTableSchema";s:5:"class";s:17:"yii\db\Connection";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:356;s:8:"function";s:13:"getTableNames";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:16;a:5:{i:0;s:42:"SHOW FULL COLUMNS FROM `dokumen_pendukung`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1474594841.9761951;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:390;s:8:"function";s:14:"getTableSchema";s:5:"class";s:17:"yii\db\Connection";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:356;s:8:"function";s:13:"getTableNames";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:17;a:5:{i:0;s:42:"SHOW FULL COLUMNS FROM `dokumen_pendukung`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1474594841.9795229;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:390;s:8:"function";s:14:"getTableSchema";s:5:"class";s:17:"yii\db\Connection";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:356;s:8:"function";s:13:"getTableNames";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:19;a:5:{i:0;s:635:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'dokumen_pendukung' AND kcu.table_name = 'dokumen_pendukung'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1474594841.9805419;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:390;s:8:"function";s:14:"getTableSchema";s:5:"class";s:17:"yii\db\Connection";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:356;s:8:"function";s:13:"getTableNames";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:20;a:5:{i:0;s:635:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'dokumen_pendukung' AND kcu.table_name = 'dokumen_pendukung'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1474594841.9812901;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:390;s:8:"function";s:14:"getTableSchema";s:5:"class";s:17:"yii\db\Connection";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:356;s:8:"function";s:13:"getTableNames";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:22;a:5:{i:0;s:11:"SHOW TABLES";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1474594841.983042;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:23;a:5:{i:0;s:11:"SHOW TABLES";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1474594841.9835889;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:25;a:5:{i:0;s:40:"SHOW FULL COLUMNS FROM `auth_assignment`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1474594841.9837639;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:26;a:5:{i:0;s:40:"SHOW FULL COLUMNS FROM `auth_assignment`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1474594841.98681;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:28;a:5:{i:0;s:631:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'auth_assignment' AND kcu.table_name = 'auth_assignment'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1474594841.9872191;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:29;a:5:{i:0;s:631:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'auth_assignment' AND kcu.table_name = 'auth_assignment'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1474594841.9877801;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:31;a:5:{i:0;s:34:"SHOW FULL COLUMNS FROM `auth_item`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1474594841.987941;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:32;a:5:{i:0;s:34:"SHOW FULL COLUMNS FROM `auth_item`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1474594841.9907229;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:34;a:5:{i:0;s:619:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'auth_item' AND kcu.table_name = 'auth_item'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1474594841.991344;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:35;a:5:{i:0;s:619:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'auth_item' AND kcu.table_name = 'auth_item'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1474594841.9919131;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:37;a:5:{i:0;s:40:"SHOW FULL COLUMNS FROM `auth_item_child`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1474594841.9920869;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:38;a:5:{i:0;s:40:"SHOW FULL COLUMNS FROM `auth_item_child`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1474594841.99511;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:40;a:5:{i:0;s:631:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'auth_item_child' AND kcu.table_name = 'auth_item_child'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1474594841.9954979;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:41;a:5:{i:0;s:631:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'auth_item_child' AND kcu.table_name = 'auth_item_child'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1474594841.996068;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:43;a:5:{i:0;s:34:"SHOW FULL COLUMNS FROM `auth_rule`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1474594841.996228;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:44;a:5:{i:0;s:34:"SHOW FULL COLUMNS FROM `auth_rule`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1474594841.999481;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:46;a:5:{i:0;s:619:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'auth_rule' AND kcu.table_name = 'auth_rule'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.0000851;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:47;a:5:{i:0;s:619:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'auth_rule' AND kcu.table_name = 'auth_rule'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.0008161;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:49;a:5:{i:0;s:36:"SHOW FULL COLUMNS FROM `auto_number`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.0010729;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:50;a:5:{i:0;s:36:"SHOW FULL COLUMNS FROM `auto_number`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.0038669;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:52;a:5:{i:0;s:623:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'auto_number' AND kcu.table_name = 'auto_number'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.0042939;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:53;a:5:{i:0;s:623:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'auto_number' AND kcu.table_name = 'auto_number'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.0048261;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:55;a:5:{i:0;s:34:"SHOW FULL COLUMNS FROM `migration`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.0050061;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:56;a:5:{i:0;s:34:"SHOW FULL COLUMNS FROM `migration`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.0077691;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:58;a:5:{i:0;s:619:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'migration' AND kcu.table_name = 'migration'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.008157;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:59;a:5:{i:0;s:619:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'migration' AND kcu.table_name = 'migration'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.008641;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:61;a:5:{i:0;s:32:"SHOW FULL COLUMNS FROM `peserta`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.0088079;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:62;a:5:{i:0;s:32:"SHOW FULL COLUMNS FROM `peserta`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.011785;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:64;a:5:{i:0;s:615:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'peserta' AND kcu.table_name = 'peserta'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.0123789;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:65;a:5:{i:0;s:615:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'peserta' AND kcu.table_name = 'peserta'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.0130119;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:67;a:5:{i:0;s:28:"SHOW FULL COLUMNS FROM `tag`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.0131941;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:68;a:5:{i:0;s:28:"SHOW FULL COLUMNS FROM `tag`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.0164931;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:70;a:5:{i:0;s:607:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'tag' AND kcu.table_name = 'tag'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.016984;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:71;a:5:{i:0;s:607:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'tag' AND kcu.table_name = 'tag'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.0175121;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:73;a:5:{i:0;s:38:"SHOW FULL COLUMNS FROM `uploaded_file`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.0176821;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:74;a:5:{i:0;s:38:"SHOW FULL COLUMNS FROM `uploaded_file`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.0208211;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:76;a:5:{i:0;s:627:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'uploaded_file' AND kcu.table_name = 'uploaded_file'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.0212951;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:77;a:5:{i:0;s:627:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'uploaded_file' AND kcu.table_name = 'uploaded_file'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.021842;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:79;a:5:{i:0;s:29:"SHOW FULL COLUMNS FROM `user`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.0220211;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:80;a:5:{i:0;s:29:"SHOW FULL COLUMNS FROM `user`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.025311;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:82;a:5:{i:0;s:609:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.025914;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:83;a:5:{i:0;s:609:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.026437;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}}}s:2:"db";a:1:{s:8:"messages";a:46:{i:16;a:5:{i:0;s:42:"SHOW FULL COLUMNS FROM `dokumen_pendukung`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1474594841.9761951;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:390;s:8:"function";s:14:"getTableSchema";s:5:"class";s:17:"yii\db\Connection";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:356;s:8:"function";s:13:"getTableNames";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:17;a:5:{i:0;s:42:"SHOW FULL COLUMNS FROM `dokumen_pendukung`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1474594841.9795229;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:390;s:8:"function";s:14:"getTableSchema";s:5:"class";s:17:"yii\db\Connection";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:356;s:8:"function";s:13:"getTableNames";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:19;a:5:{i:0;s:635:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'dokumen_pendukung' AND kcu.table_name = 'dokumen_pendukung'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1474594841.9805419;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:390;s:8:"function";s:14:"getTableSchema";s:5:"class";s:17:"yii\db\Connection";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:356;s:8:"function";s:13:"getTableNames";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:20;a:5:{i:0;s:635:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'dokumen_pendukung' AND kcu.table_name = 'dokumen_pendukung'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1474594841.9812901;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:390;s:8:"function";s:14:"getTableSchema";s:5:"class";s:17:"yii\db\Connection";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:356;s:8:"function";s:13:"getTableNames";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:22;a:5:{i:0;s:11:"SHOW TABLES";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1474594841.983042;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:23;a:5:{i:0;s:11:"SHOW TABLES";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1474594841.9835889;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:25;a:5:{i:0;s:40:"SHOW FULL COLUMNS FROM `auth_assignment`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1474594841.9837639;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:26;a:5:{i:0;s:40:"SHOW FULL COLUMNS FROM `auth_assignment`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1474594841.98681;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:28;a:5:{i:0;s:631:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'auth_assignment' AND kcu.table_name = 'auth_assignment'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1474594841.9872191;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:29;a:5:{i:0;s:631:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'auth_assignment' AND kcu.table_name = 'auth_assignment'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1474594841.9877801;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:31;a:5:{i:0;s:34:"SHOW FULL COLUMNS FROM `auth_item`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1474594841.987941;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:32;a:5:{i:0;s:34:"SHOW FULL COLUMNS FROM `auth_item`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1474594841.9907229;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:34;a:5:{i:0;s:619:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'auth_item' AND kcu.table_name = 'auth_item'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1474594841.991344;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:35;a:5:{i:0;s:619:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'auth_item' AND kcu.table_name = 'auth_item'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1474594841.9919131;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:37;a:5:{i:0;s:40:"SHOW FULL COLUMNS FROM `auth_item_child`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1474594841.9920869;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:38;a:5:{i:0;s:40:"SHOW FULL COLUMNS FROM `auth_item_child`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1474594841.99511;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:40;a:5:{i:0;s:631:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'auth_item_child' AND kcu.table_name = 'auth_item_child'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1474594841.9954979;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:41;a:5:{i:0;s:631:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'auth_item_child' AND kcu.table_name = 'auth_item_child'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1474594841.996068;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:43;a:5:{i:0;s:34:"SHOW FULL COLUMNS FROM `auth_rule`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1474594841.996228;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:44;a:5:{i:0;s:34:"SHOW FULL COLUMNS FROM `auth_rule`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1474594841.999481;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:46;a:5:{i:0;s:619:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'auth_rule' AND kcu.table_name = 'auth_rule'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.0000851;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:47;a:5:{i:0;s:619:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'auth_rule' AND kcu.table_name = 'auth_rule'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.0008161;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:49;a:5:{i:0;s:36:"SHOW FULL COLUMNS FROM `auto_number`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.0010729;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:50;a:5:{i:0;s:36:"SHOW FULL COLUMNS FROM `auto_number`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.0038669;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:52;a:5:{i:0;s:623:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'auto_number' AND kcu.table_name = 'auto_number'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.0042939;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:53;a:5:{i:0;s:623:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'auto_number' AND kcu.table_name = 'auto_number'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.0048261;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:55;a:5:{i:0;s:34:"SHOW FULL COLUMNS FROM `migration`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.0050061;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:56;a:5:{i:0;s:34:"SHOW FULL COLUMNS FROM `migration`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.0077691;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:58;a:5:{i:0;s:619:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'migration' AND kcu.table_name = 'migration'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.008157;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:59;a:5:{i:0;s:619:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'migration' AND kcu.table_name = 'migration'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.008641;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:61;a:5:{i:0;s:32:"SHOW FULL COLUMNS FROM `peserta`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.0088079;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:62;a:5:{i:0;s:32:"SHOW FULL COLUMNS FROM `peserta`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.011785;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:64;a:5:{i:0;s:615:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'peserta' AND kcu.table_name = 'peserta'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.0123789;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:65;a:5:{i:0;s:615:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'peserta' AND kcu.table_name = 'peserta'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.0130119;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:67;a:5:{i:0;s:28:"SHOW FULL COLUMNS FROM `tag`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.0131941;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:68;a:5:{i:0;s:28:"SHOW FULL COLUMNS FROM `tag`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.0164931;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:70;a:5:{i:0;s:607:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'tag' AND kcu.table_name = 'tag'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.016984;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:71;a:5:{i:0;s:607:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'tag' AND kcu.table_name = 'tag'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.0175121;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:73;a:5:{i:0;s:38:"SHOW FULL COLUMNS FROM `uploaded_file`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.0176821;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:74;a:5:{i:0;s:38:"SHOW FULL COLUMNS FROM `uploaded_file`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.0208211;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:76;a:5:{i:0;s:627:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'uploaded_file' AND kcu.table_name = 'uploaded_file'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.0212951;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:77;a:5:{i:0;s:627:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'uploaded_file' AND kcu.table_name = 'uploaded_file'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.021842;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:79;a:5:{i:0;s:29:"SHOW FULL COLUMNS FROM `user`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.0220211;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:80;a:5:{i:0;s:29:"SHOW FULL COLUMNS FROM `user`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.025311;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:82;a:5:{i:0;s:609:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.025914;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}i:83;a:5:{i:0;s:609:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1474594842.026437;i:4;a:2:{i:0;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:317;s:8:"function";s:15:"getTableSchemas";s:5:"class";s:13:"yii\db\Schema";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:95:"C:\xampp\htdocs\bank-data\_protected\vendor\deesoft\yii2-gii\generators\migration\Generator.php";s:4:"line";i:147;s:8:"function";s:17:"generateRelations";s:5:"class";s:38:"dee\gii\generators\migration\Generator";s:4:"type";s:2:"->";}}}}}s:6:"assets";a:9:{s:19:"yii\web\JqueryAsset";a:9:{s:10:"sourcePath";s:61:"C:\xampp\htdocs\bank-data\_protected\vendor\bower/jquery/dist";s:2:"js";a:1:{i:0;s:9:"jquery.js";}s:8:"basePath";s:41:"C:\xampp\htdocs\bank-data\assets\462e6d1f";s:7:"baseUrl";s:26:"/bank-data/assets/462e6d1f";s:7:"depends";a:0:{}s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:30:"yii\validators\ValidationAsset";a:9:{s:10:"sourcePath";s:63:"C:\xampp\htdocs\bank-data\_protected\vendor\yiisoft\yii2/assets";s:2:"js";a:1:{i:0;s:17:"yii.validation.js";}s:7:"depends";a:1:{i:0;s:16:"yii\web\YiiAsset";}s:8:"basePath";s:41:"C:\xampp\htdocs\bank-data\assets\7cd1dcd6";s:7:"baseUrl";s:26:"/bank-data/assets/7cd1dcd6";s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:16:"yii\web\YiiAsset";a:9:{s:10:"sourcePath";s:63:"C:\xampp\htdocs\bank-data\_protected\vendor\yiisoft\yii2/assets";s:2:"js";a:1:{i:0;s:6:"yii.js";}s:7:"depends";a:1:{i:0;s:19:"yii\web\JqueryAsset";}s:8:"basePath";s:41:"C:\xampp\htdocs\bank-data\assets\7cd1dcd6";s:7:"baseUrl";s:26:"/bank-data/assets/7cd1dcd6";s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:28:"yii\widgets\MaskedInputAsset";a:9:{s:10:"sourcePath";s:71:"C:\xampp\htdocs\bank-data\_protected\vendor\bower/jquery.inputmask/dist";s:2:"js";a:1:{i:0;s:26:"jquery.inputmask.bundle.js";}s:7:"depends";a:1:{i:0;s:16:"yii\web\YiiAsset";}s:8:"basePath";s:41:"C:\xampp\htdocs\bank-data\assets\80a632ff";s:7:"baseUrl";s:26:"/bank-data/assets/80a632ff";s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:27:"yii\widgets\ActiveFormAsset";a:9:{s:10:"sourcePath";s:63:"C:\xampp\htdocs\bank-data\_protected\vendor\yiisoft\yii2/assets";s:2:"js";a:1:{i:0;s:17:"yii.activeForm.js";}s:7:"depends";a:1:{i:0;s:16:"yii\web\YiiAsset";}s:8:"basePath";s:41:"C:\xampp\htdocs\bank-data\assets\7cd1dcd6";s:7:"baseUrl";s:26:"/bank-data/assets/7cd1dcd6";s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:16:"yii\gii\GiiAsset";a:9:{s:10:"sourcePath";s:67:"C:\xampp\htdocs\bank-data\_protected\vendor/yiisoft/yii2-gii/assets";s:3:"css";a:1:{i:0;s:8:"main.css";}s:2:"js";a:1:{i:0;s:6:"gii.js";}s:7:"depends";a:4:{i:0;s:16:"yii\web\YiiAsset";i:1;s:28:"yii\bootstrap\BootstrapAsset";i:2;s:34:"yii\bootstrap\BootstrapPluginAsset";i:3;s:22:"yii\gii\TypeAheadAsset";}s:8:"basePath";s:41:"C:\xampp\htdocs\bank-data\assets\f07b3c33";s:7:"baseUrl";s:26:"/bank-data/assets/f07b3c33";s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:28:"yii\bootstrap\BootstrapAsset";a:9:{s:10:"sourcePath";s:64:"C:\xampp\htdocs\bank-data\_protected\vendor\bower/bootstrap/dist";s:3:"css";a:1:{i:0;s:17:"css/bootstrap.css";}s:8:"basePath";s:41:"C:\xampp\htdocs\bank-data\assets\91acad0b";s:7:"baseUrl";s:26:"/bank-data/assets/91acad0b";s:7:"depends";a:0:{}s:2:"js";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:34:"yii\bootstrap\BootstrapPluginAsset";a:9:{s:10:"sourcePath";s:64:"C:\xampp\htdocs\bank-data\_protected\vendor\bower/bootstrap/dist";s:2:"js";a:1:{i:0;s:15:"js/bootstrap.js";}s:7:"depends";a:2:{i:0;s:19:"yii\web\JqueryAsset";i:1;s:28:"yii\bootstrap\BootstrapAsset";}s:8:"basePath";s:41:"C:\xampp\htdocs\bank-data\assets\91acad0b";s:7:"baseUrl";s:26:"/bank-data/assets/91acad0b";s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:22:"yii\gii\TypeAheadAsset";a:9:{s:10:"sourcePath";s:67:"C:\xampp\htdocs\bank-data\_protected\vendor\bower/typeahead.js/dist";s:2:"js";a:1:{i:0;s:19:"typeahead.bundle.js";}s:7:"depends";a:2:{i:0;s:28:"yii\bootstrap\BootstrapAsset";i:1;s:34:"yii\bootstrap\BootstrapPluginAsset";}s:8:"basePath";s:41:"C:\xampp\htdocs\bank-data\assets\57533aeb";s:7:"baseUrl";s:26:"/bank-data/assets/57533aeb";s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}}s:4:"mail";a:0:{}s:7:"summary";a:9:{s:3:"tag";s:13:"57e48819e67b8";s:3:"url";s:40:"http://localhost/bank-data/gii/migration";s:4:"ajax";i:0;s:6:"method";s:4:"POST";s:2:"ip";s:3:"::1";s:4:"time";i:1474594842;s:10:"statusCode";i:200;s:8:"sqlCount";i:23;s:9:"mailCount";i:0;}}
