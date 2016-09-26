@@ -1,15 +1,14 @@
 {
-    "name": "nenad/yii2-basic-template",
-    "description": "Improved Yii 2 Basic Application Template By Nenad Zivkovic",
-    "keywords": ["yii2", "framework", "basic", "improved", "application template", "nenad"],
+    "name": "santhika29/bank-data",
+    "description": "Yii 2 Bank Data",
+    "keywords": ["yii2", "framework", "basic", "improved", "application template", "santhika29"],
     "type": "project",
     "license": "BSD-3-Clause",
     "support": {
         "tutorial": "http://www.freetuts.org/tutorial/view?id=6",
-        "source": "https://github.com/nenad-zivkovic/yii2-basic-template"
+        "source": "https://github.com/santhika29/bank-data"
     },
     "minimum-stability": "dev",
-    "prefer-stable": true,
     "require": {
         "php": ">=5.4.0",
         "yiisoft/yii2": "*",
@@ -19,7 +18,6 @@
         "kartik-v/yii2-widgets": "*",
         "kartik-v/yii2-builder": "@dev",
         "mdmsoft/yii2-upload-file": "~1.2",
-        "wbraganca/yii2-dynamicform": "*",
         "kartik-v/yii2-grid": "@dev",
         "kartik-v/yii2-mpdf": "dev-master",
         "mdmsoft/yii2-autonumber": "*",
