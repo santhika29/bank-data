@@ -22,6 +22,9 @@ use Yii;
  */
 class Peserta extends \yii\db\ActiveRecord
 {
+    
+    const ORTU = 10;
+    const ANAK = 20;
     /**
      * @inheritdoc
      */
@@ -69,5 +72,13 @@ class Peserta extends \yii\db\ActiveRecord
     public function getDokumenPendukungs()
     {
         return $this->hasMany(DokumenPendukung::className(), ['peserta_id' => 'nikkes']);
+    }
+    public function statusPeserta($nikkes)
+    {
+        if ((intval(substr($nikkes, 7)) == 0 ) || (fmod(substr($nikkes, 7), 100) == 0)) {
+            return self::ORTU;
+        } else {
+            return self::ANAK;
+        }
     }
 }

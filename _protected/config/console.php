@@ -10,16 +10,16 @@ $config = [
     'controllerNamespace' => 'app\console\controllers',
     'controllerMap' => [
         'migrate' => [
-            //'class' => 'yii\console\controllers\MigrateController',
-            //'migrationPath' => '@app/console/migrations',
-            'class'=>'app\commands\MigrateController',
-            'migrationLookup'=>[
-                '@app/console/migrations',
-                '@mdm/autonumber/migrations',
+            'class' => 'yii\console\controllers\MigrateController',
+            'migrationPath' => '@app/console/migrations',
+            //'class'=>'app\commands\MigrateController',
+            //'migrationLookup'=>[
+            //    '@app/console/migrations',
+            //    '@mdm/autonumber/migrations',
                 //'@yii/rbac/migrations',
-                '@mdm/upload/migrations',
+            //    '@mdm/upload/migrations',
                 // add other migration path here
-            ]
+            //],
         ],
     ],
     'components' => [

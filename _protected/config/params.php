@@ -52,4 +52,9 @@ return [
      * You will send emails to users from this address.
      */
     'supportEmail' => 'support@example.com',
+
+    'dee.migration.path' => [
+        '@yii/rbac/migrations',
+        // list your migration path here
+    ]
 ];

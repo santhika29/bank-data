@@ -112,22 +112,27 @@ class PesertaController extends AppController
         }
     }
 
+    //cari dokumen selain foto
     protected function findDetail($id)
     {
         $detailModel = new DokumenpendukungSearch();
+        
         return $detailModel->search(['DokumenpendukungSearch'=>['peserta_id'=>$id,'tag_id'=>'99']]);
+        //$id = substr($id, 0, 6);
+        //return $detailModel = DokumenPendukung::find()->where(['peserta_id'=>$id,'tag_id'=>'99']);
     }
 
+    //cari foto nya
     protected function findDokumen($id)
     {
         
+        //$id = substr($id, 0, 6);
         $detailDokumen =  DokumenPendukung::find()->where(['peserta_id'=>$id,'tag_id'=>'5'])->one();
         //$detailDokumen->search(['DokumenpendukungSearch'=>['peserta_id'=>$id,'tag_id'=>'5']]);
 
         if (!empty($detailDokumen->uploaded_file_id))
         {
-        return $foto = \app\models\UploadedFile::find()->where(['id'=>$detailDokumen->uploaded_file_id])->one();
-
+            return $foto = \app\models\UploadedFile::find()->where(['id'=>$detailDokumen->uploaded_file_id])->one();
         }
     }
 }

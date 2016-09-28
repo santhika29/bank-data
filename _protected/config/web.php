@@ -57,8 +57,10 @@ $config = [
             'enableAutoLogin' => true,
         ],
         'session' => [
-            'class' => 'yii\web\Session',
-            'savePath' => '@app/runtime/session'
+            //'class' => 'yii\web\Session',
+            //'savePath' => '@app/runtime/session'
+            //saving session on db
+            'class' => 'yii\web\DbSession',
         ],
         'authManager' => [
             'class' => 'yii\rbac\DbManager',

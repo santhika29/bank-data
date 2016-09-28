@@ -4,9 +4,130 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ef311a4cd3d96cbb597594a2fe650f34",
-    "content-hash": "ba7650896ceab0da865ec3b4e6fa5647",
+    "hash": "70a79c2f6f3d43896ad73f13030d0820",
+    "content-hash": "da395712a0a84bfd407ad20aba963812",
     "packages": [
+        {
+            "name": "2amigos/yii2-chartjs-widget",
+            "version": "2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/2amigos/yii2-chartjs-widget.git",
+                "reference": "9e9c55212f80870820739a3b6e5deea88789876a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/2amigos/yii2-chartjs-widget/zipball/9e9c55212f80870820739a3b6e5deea88789876a",
+                "reference": "9e9c55212f80870820739a3b6e5deea88789876a",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/chartjs": "2.1.6",
+                "yiisoft/yii2": "*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.*"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                },
+                "asset-installer-paths": {
+                    "bower-asset-library": "vendor/bower"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "dosamigos\\chartjs\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "2amigOS! Consulting Group",
+                    "email": "hola@2amigos.us",
+                    "homepage": "http://2amigos.us",
+                    "role": "Developer"
+                }
+            ],
+            "description": "ChartJs widget for Yii2.",
+            "homepage": "http://yiiwheels.com/extension/chartjs-widget",
+            "keywords": [
+                "2amigos",
+                "chartjs",
+                "extension",
+                "widget",
+                "yii",
+                "yii 2",
+                "yii2"
+            ],
+            "time": "2016-07-09 19:09:35"
+        },
+        {
+            "name": "bedezign/yii2-audit",
+            "version": "1.0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bedezign/yii2-audit.git",
+                "reference": "2ad360d01f45bff9c5c8eec6d9d2038965bba0b5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bedezign/yii2-audit/zipball/2ad360d01f45bff9c5c8eec6d9d2038965bba0b5",
+                "reference": "2ad360d01f45bff9c5c8eec6d9d2038965bba0b5",
+                "shasum": ""
+            },
+            "require": {
+                "2amigos/yii2-chartjs-widget": "2.0.1 || 3.*",
+                "ext-bcmath": "*",
+                "php": ">=5.4.0",
+                "phpspec/php-diff": "1.*",
+                "yiisoft/yii2": "2.*",
+                "yiisoft/yii2-debug": "2.*"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "bootstrap": "bedezign\\yii2\\audit\\Bootstrap"
+            },
+            "autoload": {
+                "psr-4": {
+                    "bedezign\\yii2\\audit\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD 3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Guns",
+                    "email": "Steve@bedezign.com",
+                    "homepage": "http://bedezign.com/"
+                },
+                {
+                    "name": "Marc Hollander",
+                    "email": "marchollander@gmail.com",
+                    "homepage": "http://maruc.nl/"
+                },
+                {
+                    "name": "Brett O'Donnell",
+                    "email": "cornernote@gmail.com",
+                    "homepage": "https://mrphp.com.au/"
+                }
+            ],
+            "description": "Yii2 Audit records and displays web/cli requests, database changes, php/js errors and associated data.",
+            "keywords": [
+                "Audit",
+                "logging",
+                "trail",
+                "yii2"
+            ],
+            "time": "2016-07-28 07:17:52"
+        },
         {
             "name": "bower-asset/bootstrap",
             "version": "v3.3.7",
@@ -108,6 +229,34 @@
                 "responsive",
                 "web"
             ]
+        },
+        {
+            "name": "bower-asset/chartjs",
+            "version": "v2.1.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/chartjs/Chart.js.git",
+                "reference": "07662b158d829f395b2c97d732e60599b8b5c4e4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/chartjs/Chart.js/zipball/07662b158d829f395b2c97d732e60599b8b5c4e4",
+                "reference": "07662b158d829f395b2c97d732e60599b8b5c4e4",
+                "shasum": ""
+            },
+            "require-dev": {
+                "bower-asset/jquery": "~2.1.4"
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": [
+                    "dist/Chart.js"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Simple HTML5 Charts using the canvas element"
         },
         {
             "name": "bower-asset/holderjs",
@@ -353,6 +502,54 @@
                 "markdown-extra"
             ],
             "time": "2016-09-14 20:40:20"
+        },
+        {
+            "name": "deesoft/yii2-console",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/deesoft/yii2-console.git",
+                "reference": "9f81adad5d0dcd93ce8bbf98314483e300b15ffb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/deesoft/yii2-console/zipball/9f81adad5d0dcd93ce8bbf98314483e300b15ffb",
+                "reference": "9f81adad5d0dcd93ce8bbf98314483e300b15ffb",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": ">=2.0.4"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "bootstrap": "dee\\console\\Bootstrap",
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "dee\\console\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Misbahul Munir",
+                    "email": "misbahuldmunir@gmail.com"
+                }
+            ],
+            "description": "Yii2 console command",
+            "keywords": [
+                "Sample Data",
+                "command",
+                "migration",
+                "yii2"
+            ],
+            "time": "2016-04-10 14:29:26"
         },
         {
             "name": "deesoft/yii2-gii",
@@ -2671,6 +2868,53 @@
             "time": "2016-06-05 20:34:32"
         },
         {
+            "name": "yiisoft/yii2-debug",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yiisoft/yii2-debug.git",
+                "reference": "17658ab8eb4981dad0891a9b09fda786d140be3b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/17658ab8eb4981dad0891a9b09fda786d140be3b",
+                "reference": "17658ab8eb4981dad0891a9b09fda786d140be3b",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "~2.0.4",
+                "yiisoft/yii2-bootstrap": "~2.0.0"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "yii\\debug\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Qiang Xue",
+                    "email": "qiang.xue@gmail.com"
+                }
+            ],
+            "description": "The debugger extension for the Yii framework",
+            "keywords": [
+                "debug",
+                "debugger",
+                "yii2"
+            ],
+            "time": "2016-09-05 10:57:44"
+        },
+        {
             "name": "yiisoft/yii2-gii",
             "version": "dev-master",
             "source": {
@@ -3032,53 +3276,6 @@
                 "yii2"
             ],
             "time": "2016-04-14 08:46:27"
-        },
-        {
-            "name": "yiisoft/yii2-debug",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/yiisoft/yii2-debug.git",
-                "reference": "17658ab8eb4981dad0891a9b09fda786d140be3b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/17658ab8eb4981dad0891a9b09fda786d140be3b",
-                "reference": "17658ab8eb4981dad0891a9b09fda786d140be3b",
-                "shasum": ""
-            },
-            "require": {
-                "yiisoft/yii2": "~2.0.4",
-                "yiisoft/yii2-bootstrap": "~2.0.0"
-            },
-            "type": "yii2-extension",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.0.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "yii\\debug\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Qiang Xue",
-                    "email": "qiang.xue@gmail.com"
-                }
-            ],
-            "description": "The debugger extension for the Yii framework",
-            "keywords": [
-                "debug",
-                "debugger",
-                "yii2"
-            ],
-            "time": "2016-09-05 10:57:44"
         },
         {
             "name": "yiisoft/yii2-faker",

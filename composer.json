@@ -23,7 +23,9 @@
         "mdmsoft/yii2-autonumber": "*",
         "kartik-v/yii2-datecontrol": "dev-master",
         "sadovojav/yii2-image-thumbnail": "dev-master",
-        "deesoft/yii2-gii": "~1.0"
+        "deesoft/yii2-gii": "~1.0",
+        "deesoft/yii2-console": "~1.0",
+        "bedezign/yii2-audit": "^1.0"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",
