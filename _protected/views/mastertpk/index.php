@@ -2,52 +2,48 @@
 
 use yii\helpers\Html;
 use kartik\grid\GridView;
+
 /* @var $this yii\web\View */
-/* @var $searchModel app\models\search\PesertaSearch */
+/* @var $searchModel app\models\search\MastertpkSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Peserta';
+$this->title = 'Master TPK';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="peserta-index">
+<div class="master-tpk-index">
 
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
         'filterModel' => $searchModel,
         'pjax' => true,
         'pjaxSettings' => ['options' => ['enablePushState' => false,]],
-        'responsive'=>false,
+        'responsive'=>true,
         'containerOptions'=>['style'=>'overflow: auto'],
         'columns' => [
             ['class' => 'kartik\grid\SerialColumn'],
 
-            'nik',
-            'nikkes',
-            'nama',
-            'band',
-            [
-                'attribute' => 'tgl_lahir',
-                'format' => 'date',
-            ],
-            // 'tgl_pensiun',
-            // 'tanggungan',
-            // 'tgl_akhir_tanggungan',
-            'tpk',
-            'area',
+            //'KDTPK',
+            //'NO_FKTP',
+            'NAMA_TPK',
+            //'NAMA_FKTP',
+            'ALAMAT',
+            'KOTA',
+            // 'AREA',
+            // 'STATUS',
+            // 'TGL_MULAI_PKS',
+            // 'TGL_AKHIR_PKS',
+            // 'KETERANGAN',
 
-            [
-                'class' => 'kartik\grid\ActionColumn',
-                'template' => '{view}',
-            ],
+            ['class' => 'kartik\grid\ActionColumn'],
         ],
-        'panel'=>['type'=>'primary', 'heading'=>'<h4>Peserta</h4>'],
+        'panel'=>['type'=>'primary', 'heading'=>'<h4>Master TPK</h4>'],
         'toolbar'=> [
             [
                 'content'=>
-                    /*Html::a('<i class="glyphicon glyphicon-plus"></i>', ['create'],[
-                        'title'=> 'Create Peserta', 
+                    Html::a('<i class="glyphicon glyphicon-plus"></i>', ['create'],[
+                        'title'=> 'Create Master TPK', 
                         'class'=>'btn btn-success'
-                    ]) . ' '.*/
+                    ]) . ' '.
                     Html::a('<i class="glyphicon glyphicon-repeat"></i>', ['index'], [
                         'data-pjax'=>0, 
                         'class'=>'btn btn-default', 
@@ -57,3 +53,4 @@ $this->params['breadcrumbs'][] = $this->title;
             ]
         ]
     ]); ?>
+</div>

@@ -8,7 +8,7 @@ $config = [
     'name' => 'BANK DATA YAKES TELKOM',
     'language' => 'en',
     'basePath' => dirname(__DIR__),
-    'bootstrap' => ['log', 'app\components\Aliases'],
+    'bootstrap' => ['log', 'app\components\Aliases'],//,'admin'],
 
     'controllerMap' => [
         'file' => 'mdm\upload\FileController', // use to show or download file
@@ -45,9 +45,9 @@ $config = [
 
                 '<alias:\w+>' => 'site/<alias>',
 
-                '<controller:\w+>/<id:\d+>' => '<controller>/view',
-                '<controller:\w+>/<action:\w+>/<id:\d+>' => '<controller>/<action>',
-                '<controller:\w+>/<action:\w+>' => '<controller>/<action>',
+                //'<controller:\w+>/<id:\d+>' => '<controller>/view',
+                //'<controller:\w+>/<action:\w+>/<id:\d+>' => '<controller>/<action>',
+                //'<controller:\w+>/<action:\w+>' => '<controller>/<action>',
 
                 //'peserta/<page:\d+>' => 'peserta',
             ],
@@ -181,11 +181,49 @@ $config = [
                 ]
             ],
         ],
-        'utility' => [
-            'class' => 'c006\utility\migration\Module',
-        ],
+        /*
+        'admin' => [
+            'class' => 'mdm\admin\Module',
+            //'layout' => 'top-menu', // it can be '@path/to/your/layout'.
+            'controllerMap' => [
+                'assignment' => [
+                    'class' => 'mdm\admin\controllers\AssignmentController',
+                    'userClassName' => 'app\models\User',
+                    'idField' => 'id',
+                ],
+                //'other' => [
+                //    'class' => 'path\to\OtherController', // add another controller
+                //],
+            ],
+            'menus' => [
+                'assignment' => [
+                    'label' => 'Grand Access' // change label
+                ],
+                'route' => null, // disable menu route 
+            ]
+            
+        ]
+        */
     ],
     'params' => $params,
+
+    //additional parameter for rbac gui
+    /*
+    'as access' => [
+        'class' => 'mdm\admin\components\AccessControl',
+        'allowActions' => [
+            'site/*',
+            'admin/*',
+            'debug/*',
+
+            // The actions listed here will be allowed to everyone including guests.
+            // So, 'admin/*' should not appear here in the production, of course.
+            // But in the earlier stages of your development, you may probably want to
+            // add a lot of actions here until you finally completed setting up rbac,
+            // otherwise you may not even take a first step.
+        ]
+    ],
+    */
 ];
 
 if (YII_ENV_DEV) {
@@ -196,9 +234,6 @@ if (YII_ENV_DEV) {
     $config['bootstrap'][] = 'gii';
     $config['modules']['gii'] = [
         'class' => 'yii\gii\Module',
-        'generators' => [
-            'migration' => ['class' => 'dee\gii\generators\migration\Generator'],
-        ]
     ];
 }
 

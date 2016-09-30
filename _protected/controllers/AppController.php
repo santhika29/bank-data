@@ -30,6 +30,7 @@ class AppController extends Controller
                         'allow' => true,
                         'roles' => ['admin'],
                     ],
+                    //peserta rules
                     [
                         // other rules
                         'controllers' => ['peserta'],
@@ -47,6 +48,28 @@ class AppController extends Controller
                     [
                         // other rules
                         'controllers' => ['peserta'],
+                        'actions' => ['delete'],
+                        'allow' => true,
+                        'roles' => ['admin'],
+                    ],
+                    //Master TPK rules
+                    [
+                        // other rules
+                        'controllers' => ['mastertpk'],
+                        'actions' => ['index', 'view'],
+                        'allow' => true,
+                        'roles' => ['member'],
+                    ],
+                    [
+                        // other rules
+                        'controllers' => ['mastertpk'],
+                        'actions' => ['create', 'update'],
+                        'allow' => true,
+                        'roles' => ['employee'],
+                    ],
+                    [
+                        // other rules
+                        'controllers' => ['mastertpk'],
                         'actions' => ['delete'],
                         'allow' => true,
                         'roles' => ['admin'],

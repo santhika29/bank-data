@@ -88,6 +88,7 @@ class DokumenpendukungSearch extends DokumenPendukung
         
         //untuk mengeluarkan foto
         if ($this->tag_id === '99') {
+
             $kode = substr($this->peserta_id, 0, 6);
 
             $subQuery = DokumenPendukung::find();
@@ -95,7 +96,7 @@ class DokumenpendukungSearch extends DokumenPendukung
             
             $query->andFilterWhere(['<', 'tag_id', '5'])
                 ->andFilterWhere(['like','peserta_id', $this->peserta_id])
-                ->orWhere(['in', 'peserta_id', $subQuery]);
+                ->andWhere(['in', 'peserta_id', $subQuery]);
         }else{
             $query->andFilterWhere(['tag_id' => $this->tag_id]);
 
@@ -104,6 +105,8 @@ class DokumenpendukungSearch extends DokumenPendukung
             $query->andFilterWhere(['like', 'peserta_id', $this->peserta_id])
                 ->andFilterWhere(['like', 'peserta.nikkes', $this->peserta_id]);
         }
+
+        
         return $dataProvider;
     }
 }

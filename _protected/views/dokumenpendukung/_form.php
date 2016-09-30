@@ -1,5 +1,6 @@
 <?php
 use app\models\Tag;
+use app\models\Peserta;
 
 
 use yii\helpers\ArrayHelper;
@@ -19,8 +20,12 @@ $form = ActiveForm::begin([
             if ($stat == '1')
             {
                 echo $form->field($model, 'tag_id')->dropDownList(
-                    ArrayHelper::map(Tag::find()->where(['<','id','5'])->all(),'id','name'), ['prompt' => 'Pilih Jenis Dokumen']
-            );
+                    ArrayHelper::map(Tag::find()
+                        ->where(['<','id','5'])
+                        ->andWhere(['status' => Peserta::statusPeserta($kode)])
+                        ->orWhere(['status' => '30'])
+                        ->all(),'id','name'), ['prompt' => 'Pilih Jenis Dokumen']
+                    );
                 $dok = 'application/pdf';
             }else{
                 echo   $form->field($model, 'tag_id')->hiddenInput(['value'=> '5'])->label(false);

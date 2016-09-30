@@ -110,7 +110,7 @@ $this->params['breadcrumbs'][] = $this->title;
                                     '<span class="glyphicon glyphicon-download"></span>',
                                     ['file/download', 'id' => $model->uploaded_file_id], 
                                     [
-                                        'title' => 'Cetak KKP',
+                                        'title' => 'Donwload',
                                         'target' => '_blank',
                                         'data-pjax' => '0',
                                     ]

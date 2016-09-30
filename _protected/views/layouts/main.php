@@ -36,17 +36,25 @@ AppAsset::register($this);
 
     // everyone can see Home page
     $menuItems[] = ['label' => Yii::t('app', 'Home'), 'url' => ['/site/index']];
+        
 
     // we do not need to display About and Contact pages to employee+ roles
-
+    /*
     if (!Yii::$app->user->can('employee')) {
-        //$menuItems[] = ['label' => Yii::t('app', 'About'), 'url' => ['/site/about']];
-        //$menuItems[] = ['label' => Yii::t('app', 'Contact'), 'url' => ['/site/contact']];
+        $menuItems[] = ['label' => Yii::t('app', 'About'), 'url' => ['/site/about']];
+        $menuItems[] = ['label' => Yii::t('app', 'Contact'), 'url' => ['/site/contact']];
+    }
+    */
+    //only employee+ can see this menu
+    if (Yii::$app->user->can('employee')) {
+        $menuItems[] = ['label' => 'Master TPK', 'url' => ['/mastertpk/index']];
+        $menuItems[] = ['label' => 'Peserta', 'url' => ['/peserta/index']];  
     }
 
     // display Users to admin+ roles
     if (Yii::$app->user->can('admin')){
         $menuItems[] = ['label' => Yii::t('app', 'Users'), 'url' => ['/user/index']];
+        
     }
     
     // display Logout to logged in users
