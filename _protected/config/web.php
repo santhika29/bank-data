@@ -19,20 +19,28 @@ $config = [
             'cookieValidationKey' => 'Q7dKI_ZzzMYpaEux412BnvrnjzNJpd00',
         ],
         // you can set your theme here - template comes with: 'light' and 'dark'
+        
         'view' => [
             'theme' => [
+                //'pathMap' => ['@app/views' => '@webroot/themes/adminlte/views'],
                 'pathMap' => ['@app/views' => '@webroot/themes/superhero/views'],
                 'baseUrl' => '@web/themes/superhero',
             ],
         ],
+        
         'assetManager' => [
+            /*
             'bundles' => [
                 // we will use bootstrap css from our theme
                 'yii\bootstrap\BootstrapAsset' => [
                     'css' => [], // do not use yii default one
                 ],
+                //'dmstr\web\AdminLteAsset' => ['skin' => 'skin-red',],
             ],
+            */
+            'assetMap' => ['ajax-modal-popup.js' => '@themes/js/ajax-modal-popup.js'],
         ],
+        
         'cache' => [
             'class' => 'yii\caching\FileCache',
         ],

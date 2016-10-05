@@ -4,9 +4,95 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4a986de2e4f44e0d8f8b6621a98620fd",
-    "content-hash": "fa67340b9de94d01acc88bce549ca305",
+    "hash": "b521ce6c9225b373a4fc80aca1bb6540",
+    "content-hash": "5b39f9402f6c38a98f7a6549ffd9372a",
     "packages": [
+        {
+            "name": "almasaeed2010/adminlte",
+            "version": "v2.3.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/almasaeed2010/AdminLTE.git",
+                "reference": "be11566d9539370b196ac85f22a6baf9f42c87cb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/almasaeed2010/AdminLTE/zipball/be11566d9539370b196ac85f22a6baf9f42c87cb",
+                "reference": "be11566d9539370b196ac85f22a6baf9f42c87cb",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Abdullah Almsaeed",
+                    "email": "abdullah@almsaeedstudio.com"
+                }
+            ],
+            "description": "AdminLTE - admin control panel and dashboard that's based on Bootstrap 3",
+            "homepage": "http://almsaeedstudio.com/",
+            "keywords": [
+                "JS",
+                "admin",
+                "back-end",
+                "css",
+                "less",
+                "responsive",
+                "template",
+                "theme",
+                "web"
+            ],
+            "time": "2016-08-04 23:22:06"
+        },
+        {
+            "name": "bower-asset/admin-lte",
+            "version": "v2.3.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/almasaeed2010/AdminLTE.git",
+                "reference": "be11566d9539370b196ac85f22a6baf9f42c87cb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/almasaeed2010/AdminLTE/zipball/be11566d9539370b196ac85f22a6baf9f42c87cb",
+                "reference": "be11566d9539370b196ac85f22a6baf9f42c87cb",
+                "shasum": ""
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": [
+                    "index2.html",
+                    "dist/css/AdminLTE.css",
+                    "dist/js/app.js",
+                    "build/less/AdminLTE.less"
+                ],
+                "bower-asset-ignore": [
+                    "/.*",
+                    "node_modules",
+                    "bower_components",
+                    "composer.json",
+                    "documentation"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Admin dashboard and control panel template",
+            "keywords": [
+                "admin",
+                "backend",
+                "bootstrap",
+                "css",
+                "html",
+                "js",
+                "responsive",
+                "template",
+                "theme"
+            ]
+        },
         {
             "name": "bower-asset/bootstrap",
             "version": "v3.3.7",
@@ -110,6 +196,43 @@
             ]
         },
         {
+            "name": "bower-asset/fontawesome",
+            "version": "v4.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FortAwesome/Font-Awesome.git",
+                "reference": "e554555d73a44e0a7d11b0361ad7a5325a5f551c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FortAwesome/Font-Awesome/zipball/e554555d73a44e0a7d11b0361ad7a5325a5f551c",
+                "reference": "e554555d73a44e0a7d11b0361ad7a5325a5f551c",
+                "shasum": ""
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": [
+                    "less/font-awesome.less",
+                    "scss/font-awesome.scss"
+                ],
+                "bower-asset-ignore": [
+                    "*/.*",
+                    "*.json",
+                    "src",
+                    "*.yml",
+                    "Gemfile",
+                    "Gemfile.lock",
+                    "*.md"
+                ]
+            },
+            "license": [
+                "OFL-1.1",
+                "MIT",
+                "CC-BY-3.0"
+            ],
+            "description": "Font Awesome"
+        },
+        {
             "name": "bower-asset/holderjs",
             "version": "v2.8.0",
             "source": {
@@ -127,6 +250,47 @@
             "extra": {
                 "bower-asset-main": "holder.js"
             }
+        },
+        {
+            "name": "bower-asset/ionicons",
+            "version": "v2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/driftyco/ionicons.git",
+                "reference": "ecb4b806831005c25b97ed9089fbb1d7dcc0879c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/driftyco/ionicons/zipball/ecb4b806831005c25b97ed9089fbb1d7dcc0879c",
+                "reference": "ecb4b806831005c25b97ed9089fbb1d7dcc0879c",
+                "shasum": ""
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": [
+                    "css/ionicons.css",
+                    "fonts/*"
+                ],
+                "bower-asset-ignore": [
+                    "**/.*",
+                    "builder",
+                    "node_modules",
+                    "bower_components",
+                    "test",
+                    "tests"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Ionicons - free and beautiful icons from the creators of Ionic Framework",
+            "keywords": [
+                "fonts",
+                "icon font",
+                "icons",
+                "ionic",
+                "web font"
+            ]
         },
         {
             "name": "bower-asset/jquery",
@@ -232,6 +396,47 @@
                     "package.json"
                 ]
             }
+        },
+        {
+            "name": "bower-asset/slimscroll",
+            "version": "v1.3.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rochal/jQuery-slimScroll.git",
+                "reference": "cf39d364e777ef95574c30c42d3b85cb2bf325d3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rochal/jQuery-slimScroll/zipball/cf39d364e777ef95574c30c42d3b85cb2bf325d3",
+                "reference": "cf39d364e777ef95574c30c42d3b85cb2bf325d3",
+                "shasum": ""
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": [
+                    "jquery.slimscroll.js",
+                    "jquery.slimscroll.min.js"
+                ],
+                "bower-asset-ignore": [
+                    "**/.*",
+                    "node_modules",
+                    "bower_components",
+                    "test",
+                    "tests"
+                ]
+            },
+            "description": "slimScroll is a small jQuery plugin that transforms any div into a scrollable area. slimScroll doesn't occupy any visual space as it only appears on a user initiated mouse-over.",
+            "keywords": [
+                "ecosystem:jquery",
+                "jquery-plugin",
+                "scroll",
+                "scrollable",
+                "scrollbar",
+                "scroller",
+                "scrolling",
+                "slimscroll",
+                "ui"
+            ]
         },
         {
             "name": "bower-asset/typeahead.js",
@@ -353,6 +558,194 @@
                 "markdown-extra"
             ],
             "time": "2016-09-14 20:40:20"
+        },
+        {
+            "name": "cebe/yii2-gravatar",
+            "version": "1.1",
+            "target-dir": "cebe/gravatar",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cebe/yii2-gravatar.git",
+                "reference": "c9c01bd14c9bdee9e5ae1ef1aad23f80c182c057"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cebe/yii2-gravatar/zipball/c9c01bd14c9bdee9e5ae1ef1aad23f80c182c057",
+                "reference": "c9c01bd14c9bdee9e5ae1ef1aad23f80c182c057",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-0": {
+                    "cebe\\gravatar\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Carsten Brandt",
+                    "email": "mail@cebe.cc",
+                    "homepage": "http://cebe.cc/",
+                    "role": "Core framework development"
+                }
+            ],
+            "description": "Gravatar Widget for Yii 2",
+            "keywords": [
+                "gravatar",
+                "yii"
+            ],
+            "time": "2013-12-10 17:49:58"
+        },
+        {
+            "name": "cinghie/yii2-admin-lte",
+            "version": "v1.3.10",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cinghie/yii2-admin-lte.git",
+                "reference": "b7c7f2f910a0518c694341241a98cdc1d71ea4f3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cinghie/yii2-admin-lte/zipball/b7c7f2f910a0518c694341241a98cdc1d71ea4f3",
+                "reference": "b7c7f2f910a0518c694341241a98cdc1d71ea4f3",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/admin-lte": "*",
+                "bower-asset/ionicons": "*",
+                "cinghie/yii2-fontawesome": "*",
+                "kartik-v/yii2-grid": "*",
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "cinghie\\adminlte\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD 3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Gogodigital.it",
+                    "email": "info@gogodigital.it",
+                    "homepage": "http://www.gogodigital.it/"
+                }
+            ],
+            "description": "Asset Bundle to include AdminLTE on your Yii 2 project",
+            "homepage": "https://github.com/cinghie/yii2-admin-lte",
+            "keywords": [
+                "AdminLTE",
+                "admin lte",
+                "yii2",
+                "yii2 AdminLTE",
+                "yii2 template"
+            ],
+            "time": "2016-08-22 13:51:28"
+        },
+        {
+            "name": "cinghie/yii2-fontawesome",
+            "version": "1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cinghie/yii2-fontawesome.git",
+                "reference": "14c19e373a57a103a2e12a091e75873cb44e90ce"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cinghie/yii2-fontawesome/zipball/14c19e373a57a103a2e12a091e75873cb44e90ce",
+                "reference": "14c19e373a57a103a2e12a091e75873cb44e90ce",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/fontawesome": "*",
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "cinghie\\fontawesome\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD 3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Gogodigital.it",
+                    "email": "info@gogodigital.it",
+                    "homepage": "http://www.gogodigital.it/"
+                }
+            ],
+            "description": "Asset Bundle to include Font Awesome on your Yii 2 project",
+            "homepage": "https://github.com/cinghie/yii2-fontawesome",
+            "keywords": [
+                "FontAwesome",
+                "font awesome",
+                "yii2",
+                "yii2 font awesome"
+            ],
+            "time": "2015-08-24 10:38:35"
+        },
+        {
+            "name": "conquer/slimscroll",
+            "version": "2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/borodulin/yii2-slimscroll.git",
+                "reference": "ed48557561f4b51271fb1662985f7cd1b0d2a5cf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/borodulin/yii2-slimscroll/zipball/ed48557561f4b51271fb1662985f7cd1b0d2a5cf",
+                "reference": "ed48557561f4b51271fb1662985f7cd1b0d2a5cf",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/slimscroll": "~1.3.3",
+                "php": ">=5.4.0",
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "conquer\\slimscroll\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andrey Borodulin",
+                    "email": "borodulin@gmail.com",
+                    "homepage": "https://github.com/borodulin/yii2-slimscroll"
+                }
+            ],
+            "description": "Yii2 slimscroll widget",
+            "homepage": "https://github.com/borodulin/yii2-slimscroll",
+            "keywords": [
+                "extension",
+                "slimscroll",
+                "widget",
+                "yii2"
+            ],
+            "time": "2015-09-02 13:40:43"
         },
         {
             "name": "deesoft/yii2-gii",
@@ -2331,6 +2724,58 @@
             "time": "2016-04-07 12:29:16"
         },
         {
+            "name": "rmrevin/yii2-fontawesome",
+            "version": "2.12.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rmrevin/yii2-fontawesome.git",
+                "reference": "62308687477734c166753de0ad9e2333dc7dce32"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rmrevin/yii2-fontawesome/zipball/62308687477734c166753de0ad9e2333dc7dce32",
+                "reference": "62308687477734c166753de0ad9e2333dc7dce32",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/fontawesome": "4.4.*",
+                "php": ">=5.4.0",
+                "yiisoft/yii2": "2.0.*"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "asset-installer-paths": {
+                    "npm-asset-library": "vendor/npm",
+                    "bower-asset-library": "vendor/bower"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "rmrevin\\yii\\fontawesome\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Revin Roman",
+                    "email": "roman@rmrevin.com",
+                    "homepage": "https://rmrevin.com/"
+                }
+            ],
+            "description": "Asset Bundle for Yii2 with Font Awesome",
+            "keywords": [
+                "asset",
+                "awesome",
+                "bundle",
+                "font",
+                "yii"
+            ],
+            "time": "2015-11-20 09:17:45"
+        },
+        {
             "name": "sadovojav/yii2-image-thumbnail",
             "version": "dev-master",
             "source": {
@@ -2821,6 +3266,59 @@
                 "yii2"
             ],
             "time": "2016-09-09 11:48:11"
+        },
+        {
+            "name": "yiister/yii2-adminlte",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yiister/yii2-adminlte.git",
+                "reference": "8d03738309840436700ea1a71428c879ca3bccab"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yiister/yii2-adminlte/zipball/8d03738309840436700ea1a71428c879ca3bccab",
+                "reference": "8d03738309840436700ea1a71428c879ca3bccab",
+                "shasum": ""
+            },
+            "require": {
+                "almasaeed2010/adminlte": "~2.0",
+                "php": ">=5.4.0",
+                "rmrevin/yii2-fontawesome": "2.12.*",
+                "yiisoft/yii2": ">=2.0.5",
+                "yiisoft/yii2-bootstrap": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "yiister\\adminlte\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pavel Fedotov",
+                    "email": "fps.06@mail.ru",
+                    "homepage": "https://github.com/fps01",
+                    "role": "Creator"
+                }
+            ],
+            "description": "yii2-adminlte is a package for yii framework 2 that consists a very popular backend template AdminLTE (based on bootstrap 3).",
+            "homepage": "http://adminlte.yiister.ru",
+            "keywords": [
+                "AdminLTE",
+                "admin",
+                "back-end",
+                "backend",
+                "bootstrap 3",
+                "template",
+                "theme",
+                "yii2"
+            ],
+            "time": "2016-01-20 18:10:37"
         }
     ],
     "packages-dev": [

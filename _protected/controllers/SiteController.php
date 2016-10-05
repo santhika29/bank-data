@@ -66,6 +66,8 @@ class SiteController extends Controller
         return [
             'error' => [
                 'class' => 'yii\web\ErrorAction',
+                //'class' => \yii\web\ErrorAction::className(),
+                'view' => '@yiister/adminlte/views/error',
             ],
             'captcha' => [
                 'class' => 'yii\captcha\CaptchaAction',
@@ -163,6 +165,8 @@ class SiteController extends Controller
 
         // if user is not denied because he is not active, then his credentials are not good
         if ($successfulLogin === false) {
+            
+            $this->layout = 'main-login';
             return $this->render('login', ['model' => $model]);
         }
 
@@ -180,6 +184,7 @@ class SiteController extends Controller
         Yii::$app->user->logout();
 
         return $this->goHome();
+        //return $this->render('login');
     }
 
 /*----------------*

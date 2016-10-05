@@ -53,8 +53,6 @@ $this->params['breadcrumbs'][] = $this->title;
                 'label' => 'Jenis Dokumen', 
                 'value' => function ($model, $index, $widget) { return $model->tag->name; }
             ],
-
-            ['class' => 'yii\grid\ActionColumn'],
         ],
     ]); ?>
 <?php Pjax::end(); ?></div>
